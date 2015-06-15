@@ -88,6 +88,15 @@ div.buttons{
 	margin: 0 0 5% !important;
 	float: right;
 }  
+#content-area #gift-card .gift-card-mobile{
+	float: right; 
+	margin-right:10%;
+	margin-top:5%;
+}
+#content-area #gift-card .gift-card-desktop{
+	float: right; 
+	margin-right:10%;
+}
 #content-area .ad-space .inner-content{
 	width:100%;
 	/*background:url(../assets/gift-card-mobile.png) no-repeat 20% 50%;*/
