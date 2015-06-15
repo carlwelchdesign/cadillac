@@ -87,7 +87,7 @@
   display: none;
 }
 #registration_form .disclaimers{
-	border-top: 2px solid #ccc;
+	/* border-top: 2px solid #ccc; */ 
 	padding-top: 30px;
 	padding-left: 10px;
 }
@@ -187,6 +187,59 @@
 	#i-would-like-to-participate{
 		padding-bottom: 0 !important;
 	}
+}
+
+
+/* ______________________________________________ */
+/* Responsive mobile viewport styling starts here */
+/* ______________________________________________ */
+
+@media only screen and (max-width: 768px) {
+
+	#footer-area{
+		border-top:1px solid #eaeaea;
+	}
+	
+	#footer-area .footer-inner img.foot-logo{
+		display:none;
+	}
+
+	#footer-area .left-links{
+		width:100%;
+	}
+
+	#footer-area li{
+		text-align: center;
+	}
+
+	#footer-area .left-links .url{
+		display:none;
+	}
+	#footer-area .trade-mark{
+		margin-bottom:16px;
+	}
+
+	#footer-area .mobile-links, #footer-area .mobile-links .right-links{
+		display:block;
+		float:none;
+		margin:0 auto;
+		width:200px;
+		overflow:hidden;
+	}
+
+	#footer-area .footer-inner .right-links li{
+		padding:0 14px;
+	}
+	
+	#footer-area .right-links{
+		display:none;
+	}
+
+	#footer-area .reg-mark{
+		margin-top:26px;
+		font-size:12px;
+	}
+
 }
 
 

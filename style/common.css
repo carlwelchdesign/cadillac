@@ -179,6 +179,9 @@ hr {
 #footer-area .footer-inner .left-links li{
 	padding:3px 0;
 }
+#footer-area .mobile-links{
+	display:none;
+}
 #footer-area .footer-inner .left-links li a{
 	color:#888;
 }
@@ -281,11 +284,12 @@ font-family: "DroidSerif";
 
 
 /*ipad portrait*/
+/* 
 @media only screen and (min-device-width: 768px) and (orientation: portrait) {
 	#footer-area .footer-inner .left-links{
 		width:60%;
 	}
-}
+} */
 
 /*iphone 6*/
 @media only screen and (min-device-width : 375px) and (max-device-width : 667px) and (orientation : portrait) {
@@ -309,7 +313,7 @@ font-family: "DroidSerif";
 		  font-size: 2em;
 	}
 	#hero-area .hero-inner{
-		padding:8% 5%;
+		padding:8% 0%;
 		text-align:left;
 	}
 	#hero-area .hero-inner .activities li,
