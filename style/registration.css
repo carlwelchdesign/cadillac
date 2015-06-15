@@ -87,7 +87,7 @@
   display: none;
 }
 #registration_form .disclaimers{
-	border-top: 2px solid #ccc;
+	/* border-top: 2px solid #ccc; */ 
 	padding-top: 30px;
 	padding-left: 10px;
 }

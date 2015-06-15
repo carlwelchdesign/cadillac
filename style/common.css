@@ -310,7 +310,7 @@ font-family: "DroidSerif";
 		  font-size: 2em;
 	}
 	#hero-area .hero-inner{
-		padding:8% 5%;
+		padding:8% 0%;
 		text-align:left;
 	}
 	#hero-area .hero-inner .activities li,
