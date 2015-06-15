@@ -35,3 +35,8 @@ text-align:left;
 #content-area .content-inner .disclaimers .custom-checkmark{
 	margin-right: 15px;
 }
+
+#registration_form .disclaimers {
+  border-top: none !important;
+
+}

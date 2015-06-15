@@ -302,7 +302,7 @@
 	  line-height: auto;
 	}
 	#registration_form .disclaimers .privacy-policy strong.txt {
-		float: right;
+		/*display:inline;*/
 		width: 84%;
 		line-height: 21px;
 	}

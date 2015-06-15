@@ -187,7 +187,7 @@ div.buttons{
 	  padding: 0 0 15px 0;
 	}
 	#content-area .store-ad .store-ad-container {
-	  width: 280px;
+	  /*width: 280px;*/
 	  float: right;
 	  margin-right: 6%;
 	  margin-top: 30px;
@@ -236,7 +236,8 @@ div.buttons{
 
 @media(max-width:400px){
 	#content-area .store-ad .store-ad-container{
-		width: 142px;
+		/*width: 142px;*/
+		width: 100%;
 	}
 	#content-area .phone {
 	  margin-top: 28px;
@@ -245,21 +246,21 @@ div.buttons{
 	#content-area .store-ad {
 	  min-height: -91px;
 	  padding: 5% 0 0% 0;
-	  border: 1px solid red;
-	  width: 163px;
+	  /*width: 163px;*/
 	}
 }
 /*xs*/
 @media(max-width:767px){
 	#content-area .store-ad {
 	  min-height: 228px;
-	  padding: 5% 0 0% 14%;
+	  padding: 5% 0 0 0 !important;
 	}
 	#content-area .store-ad h2 {
 	  font-size: 1.0em;
 	}
 	#content-area .store-ad .store-ad-container {
 	  margin-right: 11%;
+	  margin-right: -5%;
 	  width: 165px;
 	}
 }
