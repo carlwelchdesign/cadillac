@@ -1,0 +1,260 @@
+#registration_form legend,
+#registration_form h3 {
+  font-family: "Montserrat";
+  text-transform: uppercase;
+  font-size:1.3em;
+  padding:0 0 10px 0;
+}
+#registration_form .mandatory{
+  font-family: "DroidSerif";
+  font-style: italic;
+  font-size: 1em;
+  padding:10px 0 20px 0;
+}
+#registration_form label {
+  font-family: "OpenSans";
+  font-weight: 400;
+  font-size: 16px;
+  padding:0 0 10px 0;
+}
+#registration_form .help-icon-pc,
+#registration_form .help-icon-by,
+#registration_form .help-icon-cr{
+    cursor: pointer;
+    margin: 0 0 0 5px;
+    position: relative;
+    top: 1px;
+}
+#registration_form .see-all-malls{
+  color: #c05e96;
+  font-family: "Montserrat";
+  text-transform: uppercase;
+  background: url(../assets/arrow-right.gif) no-repeat right center;
+  padding:20px 15px 20px 0;
+  display:inline-flex;
+}
+#registration_form .see-all-malls:hover{
+  text-decoration: underline;
+}
+#registration_form .all-malls-list .region{
+  font-family: "Montserrat";
+  text-transform: uppercase;
+  border-bottom: 1px solid #e2b4ce;
+  font-size: 1em;
+  padding: 0 0 6px 0;
+  margin:10px 0;
+}
+#registration_form .all-malls-list ul{
+	margin:0;
+	padding:0;
+}
+#registration_form .all-malls-list ul li{
+	padding:0 0 15px 0;
+}
+#registration_form input[type=checkbox]{
+  position: relative;
+  left: -10000px;
+  margin:11px 0 0 0;
+}
+#registration_form .custom-checkmark{
+    background: url(../assets/check-mark-sprite.png) no-repeat left top;
+    width: 34px;
+    height: 33px;
+    float:left;
+    position: relative;
+    top:0;
+	/*margin:0 15px 0 0;*/
+}
+#registration_form .custom-checkmark-chkd{
+    background: url(../assets/check-mark-sprite.png) no-repeat -37px top;
+}
+#registration_form .selected-mall ul{
+    float:left;
+    width: 80%;
+	margin:20px 0 0 0;
+  }
+#registration_form .selected-mall ul li{
+    float:left;
+    width: 50%;
+    margin: 0 0 25px 0;
+  }
+#registration_form .pink-chkmark{
+	background: url(../assets/checkmark.gif) left center no-repeat;
+	padding:5px 0 5px 35px;
+	margin: 0 0 10px 0;
+}
+#registration_form .all-malls-list {
+  display: none;
+}
+#registration_form .disclaimers{
+	border-top: 2px solid #ccc;
+	padding-top: 30px;
+	padding-left: 10px;
+}
+#registration_form .disclaimers .help-icon-cr{
+	margin: 0 0 0 4px;
+}
+
+#registration_form .disclaimers .customer-research,
+#registration_form .disclaimers .form-group{
+	padding:0 0 25px 0;
+	margin:0;
+}
+#registration_form .disclaimers .privacy-policy label{
+	height: 36px;
+    line-height: 32px;
+}
+#registration_form .disclaimers .consent label p{
+   /* float: right;*/
+    margin: 1px 0 0;
+    width: 94.5%;
+}
+#registration_form .disclaimers label strong.txt{
+		font-weight:normal;
+	}
+#registration_form .unsubscribe{
+	border-top:2px solid #ccc;
+	padding:25px 0 0 0;
+	margin-bottom:30px;
+}
+#registration_form .unsubscribe p{
+	margin-bottom:15px;
+}
+#alert-msg{
+	padding:30px;
+	text-align:left;
+	background:#faf4f4;
+	margin:0 0 30px 0;
+	color:#c05e96;
+}
+  
+#registration_form .disclaimers .help-block.with-errors{
+  margin-top: -38px;
+  margin-left: 49px;
+}
+#registration_form .disclaimers .help-block.with-errors.receive-email{
+  margin-top: 0 !important;
+}
+
+#mall-select > ul{
+  clear: both;
+  margin-left: 15px;
+}
+/*#registration_form > fieldset > div.row.disclaimers > div.privacy-policy.form-group.has-error > label > table > tbody > tr:nth-child(1) > td:nth-child(1){
+  width: 34px;
+  padding-right: 15px;
+}*/
+
+#registration_form .all-malls-list .custom-checkmark{
+	margin-right: 15px;
+}
+
+#registration_form > fieldset > div.row.disclaimers > div.privacy-policy.form-group.has-error > label > table > tbody > tr:nth-child(1) > td:nth-child(1),
+#registration_form > fieldset > div.row.disclaimers > div.privacy-policy.form-group.has-error > label > table > tbody > tr:nth-child(1) > td:nth-child(2),
+#registration_form > fieldset > div.row.disclaimers > div.privacy-policy.form-group.has-error > label > table > tbody > tr:nth-child(1) > td:nth-child(3){
+	/*width: 34px !important;*/
+}
+
+#registration_form > fieldset > div.row.disclaimers > div.privacy-policy.form-group > label > table > tbody > tr:nth-child(1) > td:nth-child(2) > strong,
+#registration_form > fieldset > div.row.disclaimers > div.consent.form-group > label > table > tbody > tr:nth-child(1) > td:nth-child(2) > p,
+#registration_form > fieldset > div.row.disclaimers > div.consent.form-group.has-error > label > table > tbody > tr:nth-child(1) > td:nth-child(2) > p{
+	/*padding-left: 15px !important;*/
+}
+#registration_form > fieldset > div.row.disclaimers > div.privacy-policy.form-group.has-error > label > table > tbody > tr:nth-child(1) > td:nth-child(2) > strong{
+	padding-left: 0px;
+}
+
+#registration_form > fieldset > div.row.disclaimers > div.consent.form-group.has-error > label > table > tbody > tr:nth-child(1) > td:nth-child(1) > span,
+#registration_form > fieldset > div.row.disclaimers > div.consent.form-group > label > table > tbody > tr:nth-child(1) > td:nth-child(1) > span,
+#registration_form > fieldset > div.row.disclaimers > div.privacy-policy.form-group > label > table > tbody > tr:nth-child(1) > td:nth-child(1) > span{
+	margin-right: 15px !important;
+}
+
+ #mall-select > ul > li{
+	clear: both;
+	margin-left: 15px;
+ }
+
+	/*ipad portrait*/
+@media only screen and (min-device-width: 768px) and (orientation: portrait) {
+	#registration_form .all-malls-list .col-sm-4{
+		width:48%;
+	}
+	#registration_form .disclaimers .consent label p{
+    width: 92.5%;
+	}
+}
+
+@media (max-width : 454px) {
+	.buttons input[type=submit] {
+  		margin: 20px 0 40px 0;
+	}
+}
+@media (min-width : 600px) {
+
+#registration_form div.customer-research > label > table > tbody > tr > td:nth-child(1) > span {
+		margin:0px;
+	}
+}
+/*iphone 6*/
+@media only screen and (min-device-width : 375px) and (max-device-width : 667px) and (orientation : portrait) {
+
+
+	#registration_form .mandatory{
+	  padding:8% 0;
+	}
+	#registration_form .disclaimers{
+		margin-left:3px;
+		padding-left:0;
+	}
+	#registration_form .disclaimers .consent label p{
+		width: 85%;
+		padding-right:1px;
+	}
+	#registration_form .customer-research label strong.txt{
+		display: inline-flex;
+		width: 79%;
+	}
+	#registration_form .disclaimers .help-icon-cr {
+		top: -73px;
+		left: 91%
+	}
+	#registration_form .disclaimers .customer-research,
+	#registration_form .disclaimers .form-group{
+		padding:0;
+	}
+	#registration_form .disclaimers .privacy-policy{
+		padding-bottom: 13px;
+	}
+	#registration_form .disclaimers input[type=checkbox]{
+		margin:0;
+	}
+	#registration_form .disclaimers .privacy-policy label {
+	  height: auto;
+	  line-height: auto;
+	}
+	#registration_form .disclaimers .privacy-policy strong.txt {
+		float: right;
+		width: 84%;
+		line-height: 21px;
+	}
+}
+@media only screen and (min-device-width : 375px) and (max-device-width : 667px) and (orientation : landscape){
+	#registration_form .all-malls-list .col-sm-4{
+			float:left;
+			width:50%;
+	}
+	#registration_form .disclaimers .consent label p{
+		width: 91.5%;
+	}
+
+}
+@media screen and (min-width: 1050px) {
+	#registration_form .disclaimers .consent label p {
+	  width: 95.7%;
+	  margin-top: -10px;
+	  }
+}
+
+
+

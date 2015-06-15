@@ -1,0 +1,62 @@
+ /*Styles for thank you*/
+
+
+  .cta_links .button{
+    display: block;
+    width: 220px;
+    margin: 0 auto;
+    margin-top: 40px;
+    margin-bottom: 40px; 
+  }
+  .content-mobile{
+  	border-bottom: 2px solid #ccc;
+  	float: left;
+  	margin:0 0 30px 0;
+  	width:100%;
+  }
+  .content-mobile .sec-left{
+  	float:left;
+  	padding: 0 10px 0 20px;
+  	width:44%;
+  }
+  .content-mobile .sec-left h2{
+  	color:#c05e96;
+  	font-size: 15px;
+  	padding:0 0 10px 0;
+  }
+  .content-mobile .sec-left a{
+  	display: block;
+  	margin-bottom:20px;
+  }
+  .content-mobile .cellphone{
+  	float: right;
+  	margin:0 20px 0 0;
+  }
+  .content-desktop{
+  	display: none;
+  }
+  @media screen and (min-width:1024px){
+  	.content-mobile{
+  		display: none;
+  	}
+  	.content-desktop{
+  		width:1024px;
+  		margin:0 auto;
+  		float:none;
+  		display: block;
+  		padding:0 0 100px 0;
+  	}
+	.content-desktop .sec-left h2{
+	  	color:#c05e96;
+	  	padding:50px 0 10px 0;
+	}
+	.content-desktop .sec-left{
+	  	float:left;
+	  	padding: 0 10px 0 20px;
+	  	width:65%;
+  	}
+  .content-desktop .sec-left a{
+  	display: inline-block;
+  	margin:60px 30px 20px 0;
+  }
+  }

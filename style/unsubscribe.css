@@ -1,0 +1,34 @@
+#hero-area .hero-inner{
+text-align:left;
+}
+#hero-area .hero-inner .activities li{
+	display:list-item;
+	padding:0 0 15px 0;
+	border:0;
+}
+#hero-area .hero-inner .activities li:last-child{
+	padding-bottom:0;
+}
+#content-area .content-inner form legend {
+    font-family: "DroidSerif";
+    font-size: 24px;
+    font-style: italic;
+    font-weight: 400;
+    margin: 0 0 20px;
+	text-transform:none;
+}
+#content-area .content-inner{
+	padding-left:0;
+}
+#content-area .content-inner .disclaimers{
+	padding:20px 0;
+}
+#content-area .content-inner .disclaimers label{
+	width:95%;
+	padding-bottom:20px;
+	margin-left: 15px;
+	color:#c05e96;
+}
+#content-area .content-inner .buttons{
+	margin-left:0;
+}

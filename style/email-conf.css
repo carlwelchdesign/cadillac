@@ -1,0 +1,417 @@
+/*Styles for email confirmation*/
+.row {
+	margin-right: 0;
+	margin-left: 0; 
+}
+#hero-area .hero-inner{
+	text-align:left;
+	border:0;
+}
+#hero-area .hero-inner .activities{
+	margin-bottom:20px;
+}
+#hero-area .hero-inner .activities li{
+	display:list-item;
+	border:none;
+	padding:0 0 20px 32px;
+}
+div.buttons{
+	clear:both;
+	padding:30px 0;
+}
+.btn-pink{
+	/*margin:20px 50px 0 0;*/
+	margin:20px 0 0 0;
+	padding:15px 0;
+	border:2px solid #c05e96;
+	text-transform: uppercase;
+	font-weight: bold;
+	background:#fff;
+	-moz-box-shadow:    7px 7px 21px 2px #ccc;
+	-webkit-box-shadow: 7px 7px 21px 2px #ccc;
+	box-shadow: 7px 7px 21px 2px #ccc;
+	padding:15px 30px;
+	display: inline-block;
+}
+.btn-pink-email{
+	margin:20px 50px 0 0;
+	padding:15px 0;
+	border:2px solid #c05e96;
+	text-transform: uppercase;
+	font-weight: bold;
+	background:#fff;
+	-moz-box-shadow:    7px 7px 21px 2px #ccc;
+	-webkit-box-shadow: 7px 7px 21px 2px #ccc;
+	box-shadow: 7px 7px 21px 2px #ccc;
+	padding:15px 30px;
+	float:left
+}
+.btn-back{
+	float:left;
+	margin-top: 35px;
+	background:url(../assets/arrow-right.gif) right center no-repeat;
+	padding:0 15px 0 0;
+	text-transform:uppercase;
+	font-weight:bold;
+}
+
+#content-area{
+	border-bottom: 2px solid #ccc;
+}
+#content-area .content-inner{
+	padding-top:0;
+}
+#content-area .ad-space{
+	clear: both;
+	/* Old browsers */
+	background: -moz-linear-gradient(top, #e7a69d 0%, #cb78a8 100%);
+	/* FF3.6+ */
+	background: -webkit-gradient(linear, left top, left bottom, color-stop(0%, #e7a69d), color-stop(100%, #cb78a8));
+	/* Chrome,Safari4+ */
+	background: -webkit-linear-gradient(top, #e7a69d 0%, #cb78a8 100%);
+	/* Chrome10+,Safari5.1+ */
+	background: -o-linear-gradient(top, #e7a69d 0%, #cb78a8 100%);
+	/* Opera 11.10+ */
+	background: -ms-linear-gradient(top, #e7a69d 0%, #cb78a8 100%);
+	/* IE10+ */
+	background: linear-gradient(to bottom, #e7a69d 0%, #cb78a8 100%);
+	/* W3C */
+	filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#e7a69d', endColorstr='#cb78a8',GradientType=0 );
+	/* IE6-9 */
+}
+#content-area .ad-space{
+	/*float:left;*/
+	width:100%;
+}
+#gift-card img.gift-card
+/*#content-area #gift-card .gift-card*/{
+	margin: 0 0 5% !important;
+	float: right;
+}  
+#content-area .ad-space .inner-content{
+	width:100%;
+	/*background:url(../assets/gift-card-mobile.png) no-repeat 20% 50%;*/
+	min-height: 200px;
+	margin: 8% 0;
+}
+#content-area .ad-space .inner-content .content-right{
+	/*width:54%;*/
+	/*float:right;*/
+	padding-top: 2.5%;
+	padding-left: 6%;
+}
+#content-area .ad-space .inner-content .content-right h2{
+	color:#fff;
+	font-weight: bold;
+	font-size: 1.5em;
+}
+#content-area .ad-space .inner-content .content-right p{
+	color: #fff;
+	padding:10px 0;
+}
+#content-area .ad-space .inner-content .content-right .button-white-border{
+	display: inline-block;
+	border:2px solid #fff;
+	padding:10px;
+	color: #fff;
+}
+#content-area .store-ad{
+	/*clear:both;*/
+	min-height:327px;
+	padding:5% 0 0% 14%;
+	/*border-bottom: 2px solid #ccc;*/
+}
+#content-area .phone{
+
+  margin-top: 28px;
+
+}	
+
+  
+#content-area .store-ad .store-ad-container {
+  width: 390px;
+  float: right;
+  margin-right: 9%;
+  margin-top:30px;
+}
+#content-area .store-ad h2{
+	color:#c05e96;
+	font-size: 1.5em;
+	padding: 0 0 15px 0;
+}
+#content-area .store-logo{
+	float:left;
+	margin:20px 0 0 0;
+}
+#content-area .store-logo li{
+	float:left;
+	margin:0 15px 0 0;
+}
+#content-area .store-ad a.apple-store{
+/*	background:url(../assets/apple-store.gif) no-repeat left center;
+*/	display:block;
+	/*width:180px;
+	height:61px;*/
+	color: transparent;
+}
+#content-area .store-ad a.google-play{
+/*	background:url(../assets/google-play.gif) no-repeat left center;
+*/	display:block;
+	/*width:180px;
+	height:61px;*/
+	color: transparent;
+}
+.hero-inner.center-text{
+	text-align:center !important;
+}
+
+/* xs */
+@media(max-width:600px){
+	#content-area .store-logo li {
+	  float: none;
+	  margin: 0 15px 15px 0;
+	}
+	#content-area .store-ad h2 {
+	  color: #c05e96;
+	  font-size: 1.2em;
+	  padding: 0 0 15px 0;
+	}
+	#content-area .store-ad .store-ad-container {
+	  width: 280px;
+	  float: right;
+	  margin-right: 6%;
+	  margin-top: 30px;
+	}
+	#content-area .store-ad {
+	  min-height: 228px;
+	  padding: 5% 0 0% 14%;
+	}
+	#content-area .store-logo {
+	  /*float: left;*/
+	  margin: -1px 0 0 0;
+	}
+}
+
+
+
+/*ipad portrait*/
+@media only screen and (min-device-width: 768px) and (orientation: portrait) {
+	#content-area .ad-space .inner-content{
+		/*background:url(../assets/gift-card-mobile.png) no-repeat 10% 50%;*/
+	}
+	#content-area .ad-space .inner-content .content-right{
+		/*width:50%;*/
+		padding-top:4%;
+	}
+	#content-area .store-ad{
+		/*background:url(../assets/cellphone-tablet.png) no-repeat 90% bottom;*/
+	}
+
+}
+
+
+@media only screen and (max-width : 768px) {
+	.gift-card{
+		float:none;
+	}
+
+/* Styles */
+/*#footer-area *{
+	border:1px solid red !important;
+}*/
+}
+@media(max-width:400px){
+	#content-area .store-ad .store-ad-container{
+		width: 142px;
+	}
+	#content-area .phone {
+	  margin-top: 28px;
+	  margin-left: -30px;
+	}
+	#content-area .store-ad {
+	  min-height: -91px;
+	  padding: 5% 0 0% 0;
+	  border: 1px solid red;
+	  width: 163px;
+	}
+}
+/*xs*/
+@media(max-width:767px){
+	#content-area .store-ad {
+	  min-height: 228px;
+	  padding: 5% 0 0% 14%;
+	}
+	#content-area .store-ad h2 {
+	  font-size: 1.0em;
+	}
+	#content-area .store-ad .store-ad-container {
+	  margin-right: 11%;
+	  width: 165px;
+	}
+}
+/*sm*/
+@media(min-width:768px){
+	#content-area .store-ad {
+	  min-height: 262px;
+	  padding: 5% 0 0% 14%;
+	}
+	#content-area .store-ad h2 {
+	  font-size: 1.2em;
+	}
+
+	#content-area .store-logo li {
+	  float: none;
+	}
+	#content-area .store-logo li:nth-child(1){
+		margin: 0 0 15px 0;
+	}
+	#content-area .store-logo {
+	  float: left;
+	  margin: 6px 0 0 0;
+	}
+	#content-area .store-ad .store-ad-container {
+		margin-right: 11%;	
+		width: 308px;
+	}
+	
+}
+/*md*/
+@media(min-width:992px){
+
+	#content-area .store-ad .store-ad-container {	
+		width: 404px;
+		margin-right: 18%;
+	}
+	#content-area .store-logo li {
+	   float: left; 
+	}
+	#content-area .store-logo li:nth-child(1){
+		margin: 0 15px 0 0;
+	}
+	#content-area .store-logo {
+	  float: left;
+	  margin: 15px 0 0 0;
+	}
+}
+
+/*iphone 6*/
+@media only screen and (min-device-width : 375px) and (max-device-width : 667px) and (orientation : portrait) {
+	#content-area .phone {
+	  margin-top: 58px;
+	}
+	#content-area .ad-space{
+		margin-bottom:30px;
+	}
+	#content-area .ad-space .inner-content{
+		/*background:url(../assets/gift-card-mobile.png) no-repeat center top;*/
+	}
+	#content-area .ad-space .inner-content .content-right{
+		/*width:100%;*/
+		float:none;
+		text-align:center;
+		padding-top: 50%;
+	}
+	#content-area .store-ad{
+		/*background:url(../assets/cellphone-mobile.png) no-repeat 95% bottom;*/
+	/*padding-left:5%;
+	padding-top:8%;*/
+	}
+	#content-area .store-ad h2{
+		color:#c05e96;
+		padding: 0 0 10px 0;
+		font-size: .8em;
+	}
+	#content-area .store-ad p{
+		font-size: .7em;
+		width:50%;
+	}
+	#content-area .store-logo{
+		float:left;
+		margin:10px 0 0 0;
+		width:40%;
+	}
+	#content-area .store-logo li{
+		float:left;
+		margin:0 0 10px 0;
+	}
+	#content-area .store-ad a.apple-store{
+		background:url(../assets/apple-store-mobile.gif) no-repeat left center;
+		display:block;
+		width:100px;
+		height:31px;
+		color: transparent;
+	}
+	#content-area .store-ad a.google-play{
+		background:url(../assets/google-play-mobile.gif) no-repeat left center;
+		display:block;
+		width:100px;
+		height:31px;
+		color: transparent;
+	}
+	.hero-inner.center-text{
+		text-align:left !important;
+	}
+	.buttons{
+		text-align:left;
+	}
+	.buttons.emails{
+		text-align:center;
+	}
+	.btn-pink-email{
+		margin-right:0;
+	}
+}
+
+/*iphone 6*/
+@media only screen and (min-device-width : 375px) and (max-device-width : 667px) and (orientation : landscape) {
+	
+
+	#content-area .ad-space{
+		margin-bottom:30px;
+	}
+	#content-area .ad-space .inner-content{
+		/*background:url(../assets/gift-card-mobile.png) no-repeat 20px center;*/
+	}
+	#content-area .ad-space .inner-content .content-right{
+		width:54%;
+		padding-top:30px;
+	}
+	#content-area .store-ad{
+	/*	background:url(../assets/cellphone-mobile.png) no-repeat 90% bottom;
+	padding-left:5%;
+	padding-top:8%;*/
+	}
+	#content-area .store-ad a.apple-store{
+		background:url(../assets/apple-store-mobile.gif) no-repeat left center;
+		display:block;
+		width:100px;
+		height:34px;
+		color: transparent;
+		margin-right:30px;
+	}
+	#content-area .store-ad a.google-play{
+		background:url(../assets/google-play-mobile.gif) no-repeat left center;
+		display:block;
+		width:100px;
+		height:34px;
+		color: transparent;
+	}
+	/*
+	.hero-inner.center-text{
+	text-align:left !important;
+	}*/
+}
+
+@media screen and (min-width: 1050px) {
+	/*#content-area .store-ad {
+	background: url(../assets/cellphone-desktop.png) no-repeat 80% bottom;
+	width: 1024px;
+	margin: 0 auto;
+	}*/
+	#content-area .ad-space .inner-content{
+		margin: 0 auto;
+		min-height: 300px;
+		padding: 47px 0;
+		width: 1024px;
+	}
+}
