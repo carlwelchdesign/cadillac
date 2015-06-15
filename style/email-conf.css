@@ -88,12 +88,12 @@ div.buttons{
 	margin: 0 0 5% !important;
 	float: right;
 }  
-#content-area #gift-card .gift-card-mobile{
+#content-area .gift-card-mobile{
 	float: right; 
 	margin-right:10%;
 	margin-top:5%;
 }
-#content-area #gift-card .gift-card-desktop{
+#content-area .gift-card-desktop{
 	float: right; 
 	margin-right:10%;
 }
@@ -102,11 +102,12 @@ div.buttons{
 	/*background:url(../assets/gift-card-mobile.png) no-repeat 20% 50%;*/
 	min-height: 200px;
 	margin: 8% 0;
+	overflow:hidden;
 }
 #content-area .ad-space .inner-content .content-right{
 	/*width:54%;*/
 	/*float:right;*/
-	padding-top: 2.5%;
+	padding-top: 2.5%; 
 	padding-left: 6%;
 }
 #content-area .ad-space .inner-content .content-right h2{
@@ -210,7 +211,7 @@ div.buttons{
 	}
 	#content-area .ad-space .inner-content .content-right{
 		/*width:50%;*/
-		padding-top:4%;
+		/* padding-top:4%; */ 
 	}
 	#content-area .store-ad{
 		/*background:url(../assets/cellphone-tablet.png) no-repeat 90% bottom;*/
@@ -258,6 +259,34 @@ div.buttons{
 	  width: 165px;
 	}
 }
+
+@media(max-width:768px){
+	#content-area .ad-space .inner-content .content-right{
+		padding-top: 0%; 
+	}
+	#content-area .gift-card-mobile{
+		margin:0 auto;
+		float:none;
+		margin-right:none;
+		margin-top:none;
+		width:39%;
+	}
+	#content-area .content-right h2{
+		text-align:center;
+		margin-top:16px;
+	  	margin-bottom:16px;
+	}
+	#content-area .content-right p{
+		display:none;
+	}
+	#content-area .ad-space .inner-content .content-right .button-white-border{
+		margin:0 auto;
+		display:block;
+		width:300px;
+		text-align:center;
+	}
+}
+
 /*sm*/
 @media(min-width:768px){
 	#content-area .store-ad {
