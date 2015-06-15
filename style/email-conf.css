@@ -229,6 +229,17 @@ div.buttons{
 /*#footer-area *{
 	border:1px solid red !important;
 }*/
+
+	#hero-area .hero-inner .pref-centre li:first-child{
+		padding:0 10px;
+	}
+
+	#hero-area .hero-inner .pref-centre li{
+		display:block;
+		border:none;
+		color:#c05e96;
+		margin-top:25px;
+	}
 }
 
 
@@ -265,7 +276,7 @@ div.buttons{
 	}
 }
 
-@media(max-width:768px){
+@media(max-width:767px){
 	#content-area .ad-space .inner-content .content-right{
 		padding-top: 0%; 
 	}
@@ -274,7 +285,7 @@ div.buttons{
 		float:none;
 		margin-right:none;
 		margin-top:none;
-		width:39%;
+		width:39%;  
 	}
 	#content-area .content-right h2{
 		text-align:center;
