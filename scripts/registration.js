@@ -42,6 +42,7 @@
 			});
 		}
 	});
+	
 	$("#registration_form input[type='checkbox']").click(function(){
 		$(this).closest("label").find("span").toggleClass("custom-checkmark-chkd");
 	});
