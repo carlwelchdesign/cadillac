@@ -297,7 +297,7 @@ div.buttons{
 	}
 }
 
-@media(max-width:768px){
+@media(max-width:767px){
 	#content-area .ad-space .inner-content .content-right{
 		padding:0% 15px; 
 	}
