@@ -213,11 +213,7 @@
 /* Responsive mobile viewport styling starts here */
 /* ______________________________________________ */
 
-@media only screen and (max-width: 768px) {
-
-	#footer-area{
-		border-top:2px solid #eaeaea;
-	}
+@media only screen and (max-width: 767px) {
 	
 	#footer-area .footer-inner img.foot-logo{
 		display:none;

@@ -174,10 +174,11 @@ hr {
 }
 #footer-area .footer-inner img.foot-logo{
 	float:left;
-	margin:5px 2% 0 0;
+	margin:9px 2% 0 0;
 }
 #footer-area .footer-inner .left-links{
 	float:left;
+	padding-left:40px;
 }
 #footer-area .footer-inner .left-links li{
 	padding:3px 0;
@@ -191,6 +192,9 @@ hr {
 #footer-area .footer-inner .right-links{
 	float:right;
 	margin:2px 0 0 0;
+}
+#footer-area .footer-inner .right-links ul{
+	float:right;
 }
 #footer-area .footer-inner .right-links li{
 	float:left;
@@ -284,7 +288,57 @@ font-family: "DroidSerif";
 	color:#de2728;
 }
 
+/* ______________________________________________ */
+/* Responsive mobile viewport styling starts here */
+/* ______________________________________________ */
 
+@media only screen and (max-width: 767px) {
+	
+	#footer-area .footer-inner img.foot-logo{
+		display:none;
+	}
+
+	#footer-area .left-links{
+		width:100%;
+	}
+
+	#footer-area li{
+		text-align: center;
+	}
+
+	#footer-area .left-links .url{
+		display:none;
+	}
+	#footer-area .trade-mark{
+		margin-bottom:16px;
+	}
+	#footer-area .footer-inner .left-links{
+		float:left;
+		padding-left:15px;
+	}
+
+	#footer-area .mobile-links, #footer-area .mobile-links .right-links{
+		display:block;
+		float:none;
+		margin:0 auto;
+		width:200px;
+		overflow:hidden;
+	}
+
+	#footer-area .footer-inner .right-links li{
+		padding:0 14px;
+	}
+	
+	#footer-area .right-links{
+		display:none;
+	}
+
+	#footer-area .reg-mark{
+		margin-top:26px;
+		font-size:12px;
+	}
+
+}
 
 /*ipad portrait*/
 /* 
