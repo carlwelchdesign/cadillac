@@ -51,8 +51,21 @@
 #registration_form .all-malls-list ul li{
 	padding:0 0 15px 0;
 }
+.reg_form input[type=checkbox]{
+	position:absolute !important; /* Take out Important after! */
+	left:-9999px !important; /* Take out Important after! */
+	opacity:0 !important; /* Take out Important after! */
+}
+.reg_form label{
+	margin-left:0px !important; /* Take out Important after! */
+}
 #registration_form input:focus + label > span {
     border:2px solid #6b9fd0;
+}
+#registration_form input[type=checkbox]{
+  position: relative;
+  left: -10000px;
+  margin:11px 0 0 0;
 }
 #registration_form input:checked + label > span{
 	background: url(../assets/check-mark-sprite.png) no-repeat -37px top;
@@ -61,11 +74,6 @@
     float:left;
     position: relative;
     top:0;
-}
-#registration_form input{
-	position:absolute;
-	left:-9999px;
-	opacity:0;
 }
 #registration_form .custom-checkmark{
     background: url(../assets/check-mark-sprite.png) no-repeat left top;
