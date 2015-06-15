@@ -100,6 +100,12 @@
 	padding:0 0 25px 0;
 	margin:0;
 }
+#YOUR-EMAIL-SUBSCRIPTIONS{
+	margin-top:40px;
+}
+#i-would-like-to-participate{
+  margin-bottom: -6px !important;
+ }
 #registration_form .disclaimers .privacy-policy label{
 	height: 36px;
     line-height: 32px;
@@ -115,7 +121,8 @@
 #registration_form .unsubscribe{
 	border-top:2px solid #ccc;
 	padding:25px 0 0 0;
-	margin-bottom:30px;
+	/*margin-bottom:30px;*/
+	margin-bottom: 9px;
 }
 #registration_form .unsubscribe p{
 	margin-bottom:15px;
@@ -170,10 +177,18 @@
 	margin-right: 15px !important;
 }
 
- #mall-select > ul > li{
+
+
+#mall-select > ul > li{
 	clear: both;
-	margin-left: 15px;
- }
+	margin-left: 0;
+}
+@media(max-width:320px){
+	#i-would-like-to-participate{
+		padding-bottom: 0 !important;
+	}
+}
+
 
 	/*ipad portrait*/
 @media only screen and (min-device-width: 768px) and (orientation: portrait) {

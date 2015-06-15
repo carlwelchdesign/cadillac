@@ -277,6 +277,9 @@ font-family: "DroidSerif";
 #mall-select li{
 	color:#de2728;
 }
+
+
+
 /*ipad portrait*/
 @media only screen and (min-device-width: 768px) and (orientation: portrait) {
 	#footer-area .footer-inner .left-links{
@@ -346,10 +349,31 @@ font-family: "DroidSerif";
 	 .buttons .btn-pink{
 	  margin-right:0;
 	}
+
 	
 }
 
-@media only screen and (min-device-width : 375px) and (max-device-width : 667px) and (orientation : landscape){
+@media(max-width:320px){
+	#registration_form .buttons{
+		text-align: center !important;
+	}
+	#registration_form > fieldset > div.row.disclaimers > div.customer-research > label > table > tbody > tr > td:nth-child(2){
+		padding-left: 15px;
+	}
+
+}
+
+@media(max-width:480px){
+	#registration_form .buttons{
+		text-align: center !important;
+		margin-right: 0 !important;
+	}
+	#registration_form > fieldset > div.row.buttons > input{
+		margin-right: 0 !important;
+	}
+}
+
+@media only screen and (min-device-width : 321px) and (max-device-width : 667px) and (orientation : landscape){
 	#footer-area ul.left-links{
 		text-align:center;
 		width:100%;
@@ -368,8 +392,10 @@ font-family: "DroidSerif";
 		display:none;
 	 }
 	#registration_form .buttons{
-		text-align: center;
+		text-align: center !important;
 	}
+
+
 	  
 }
 

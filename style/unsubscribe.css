@@ -32,3 +32,6 @@ text-align:left;
 #content-area .content-inner .buttons{
 	margin-left:0;
 }
+#content-area .content-inner .disclaimers .custom-checkmark{
+	margin-right: 15px;
+}

@@ -220,6 +220,10 @@ div.buttons{
 	border:1px solid red !important;
 }*/
 }
+
+
+
+
 @media(max-width:400px){
 	#content-area .store-ad .store-ad-container{
 		width: 142px;
