@@ -36,39 +36,47 @@
 		</div>
 		<div id="content-area">
 			<div class="content-inner">
-				<form id="registration_form" name="registration_form" class="registration_form" type="post" data-toggle="validator" role="form" action="">
+				<form id="registration_form" name="registration_form" class="registration_form reg_form" type="post" data-toggle="validator" role="form" action="">
 					<fieldset>
 						<legend>Nous sommes désolés que vous nous quittiez. Pourriez-vous nous donner la raison de votre désabonnement?</legend>
 						<p>S'il vous plaît cochez toutes les cases de vous:</p>
-						<div class="row disclaimers">
-							<label for="unsubscribeone" tabindex="1">
-								Je ne trouvais pas les courriels intéressants
-								<span class="custom-checkmark" ></span>
+						<div class="disclaimers">
+							<div> 
 								<input type="checkbox" name="unsubscribeone" id="unsubscribeone" />
-							</label>
-							<label for="unsubscribetwo" tabindex="2">
-								Les courriels étaient trop nombreux
-								<span class="custom-checkmark" ></span>
+								<label for="unsubscribeone">
+									Je ne trouvais pas les courriels intéressants
+									<span class="custom-checkmark" ></span>
+								</label>
+							</div> 
+							<div> 
 								<input type="checkbox" name="unsubscribetwo" id="unsubscribetwo" />
-							</label>
-							<label for="unsubscribethree">
-								Je n’habite plus près des centres commerciaux
-								<span class="custom-checkmark" ></span>
-								<input type="checkbox" name="unsubscribethree" id="unsubscribethree" />                  
-							</label>
-							<label for="unsubscribefour">
-								I don’t remember signing up
-								<span class="custom-checkmark"></span>
-								<input type="checkbox" name="unsubscribefour" id="unsubscribefour" />                  
-							</label>
+								<label for="unsubscribetwo">
+									Les courriels étaient trop nombreux
+									<span class="custom-checkmark" ></span>
+								</label>
+							</div> 
+							<div> 
+								<input type="checkbox" name="unsubscribethree" id="unsubscribethree" />
+								<label for="unsubscribethree">
+									Je n’habite plus près des centres commerciaux
+									<span class="custom-checkmark" ></span>
+								</label>
+							</div> 
+							<div> 
+								<input type="checkbox" name="unsubscribefour" id="unsubscribefour" />
+								<label for="unsubscribefour">
+									I don't remember signing up
+									<span class="custom-checkmark" ></span>
+								</label>
+							</div> 
+							<div class="row buttons">
+								<input type="submit"  value="Submit" />
+								<input type="reset" value="No Thanks" />
+							</div>  
 						</div> 
-						<div class="row buttons">
-							<input type="submit"  value="Submit" />
-							<input type="reset" value="No Thanks" />
-						</div>  
-					</fieldset> 
-				</form>
-			</div>
+					</fieldset>
+				</form> 
+			</div> 
 		</div>
 			<div id="footer-area">
 			<div class="footer-inner">

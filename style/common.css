@@ -163,6 +163,9 @@ hr {
 #content-area .content-inner{
 	padding:5% 3%;
 }
+#footer-area{
+	border-top:2px solid #eaeaea;
+}
 #footer-area .footer-inner{
 	padding-top:30px;
 	padding-bottom:30px;

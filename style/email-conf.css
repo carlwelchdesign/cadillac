@@ -56,7 +56,7 @@ div.buttons{
 }
 
 #content-area{
-	border-bottom: 2px solid #ccc;
+ /*	border-bottom: 2px solid #ccc; */ 
 }
 #content-area .content-inner{
 	padding-top:0;
@@ -240,6 +240,10 @@ div.buttons{
 		color:#c05e96;
 		margin-top:25px;
 	}
+
+	#hero-area .hero-inner .pref-centre li:first-child{
+		padding:0 10px;
+	}
 }
 
 
@@ -276,16 +280,15 @@ div.buttons{
 	}
 }
 
-@media(max-width:767px){
+@media(max-width:768px){
 	#content-area .ad-space .inner-content .content-right{
-		padding-top: 0%; 
+		padding:0% 15px; 
 	}
 	#content-area .gift-card-mobile{
 		margin:0 auto;
 		float:none;
 		margin-right:none;
-		margin-top:none;
-		width:39%;  
+		margin-top:none; 
 	}
 	#content-area .content-right h2{
 		text-align:center;
@@ -427,8 +430,8 @@ div.buttons{
 		/*background:url(../assets/gift-card-mobile.png) no-repeat 20px center;*/
 	}
 	#content-area .ad-space .inner-content .content-right{
-		width:54%;
-		padding-top:30px;
+	/*	width:54%;
+		padding-top:30px; */ 
 	}
 	#content-area .store-ad{
 	/*	background:url(../assets/cellphone-mobile.png) no-repeat 90% bottom;
