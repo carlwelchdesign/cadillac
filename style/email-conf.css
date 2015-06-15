@@ -275,7 +275,7 @@ div.buttons{
 	}
 }
 
-@media(max-width:768px){
+@media(max-width:767px){
 	#content-area .ad-space .inner-content .content-right{
 		padding-top: 0%; 
 	}
@@ -284,7 +284,7 @@ div.buttons{
 		float:none;
 		margin-right:none;
 		margin-top:none;
-		width:39%;
+		width:39%;  
 	}
 	#content-area .content-right h2{
 		text-align:center;
