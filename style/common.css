@@ -179,6 +179,9 @@ hr {
 #footer-area .footer-inner .left-links li{
 	padding:3px 0;
 }
+#footer-area .mobile-links{
+	display:none;
+}
 #footer-area .footer-inner .left-links li a{
 	color:#888;
 }
@@ -278,11 +281,12 @@ font-family: "DroidSerif";
 	color:#de2728;
 }
 /*ipad portrait*/
+/* 
 @media only screen and (min-device-width: 768px) and (orientation: portrait) {
 	#footer-area .footer-inner .left-links{
 		width:60%;
 	}
-}
+} */
 
 /*iphone 6*/
 @media only screen and (min-device-width : 375px) and (max-device-width : 667px) and (orientation : portrait) {
