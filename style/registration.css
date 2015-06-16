@@ -50,7 +50,13 @@
 	padding:0;
 }
 #registration_form .all-malls-list ul li{
-	padding:0 0 15px 0;
+	padding:17px 0 0px 0;
+}
+#registration_form .all-malls-list label{
+	line-height:32px;
+}
+#registration_form .all-malls-list .inner-region{
+	margin-top:25px;
 }
 .reg_form input[type=checkbox]{
 	position:absolute !important; /* Take out Important after! */
@@ -243,6 +249,9 @@
 	}
 }
 @media (max-width : 767px) {
+	#registration_form .selected-mall ul li{
+    	width: 100%;
+  	}
 }
 
 @media(max-width:320px){
@@ -254,7 +263,7 @@
 	/*ipad portrait*/
 @media only screen and (min-device-width: 768px) and (orientation: portrait) {
 	#registration_form .all-malls-list .col-sm-4{
-		width:48%;
+		/* width:48%; */ 
 	}
 	#registration_form .disclaimers .consent label p{
     width: 92.5%;
