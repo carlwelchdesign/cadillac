@@ -110,6 +110,9 @@ div.buttons{
 	padding-top: 2.5%; 
 	padding-left: 6%;
 }
+.lang-fr #content-area .ad-space .inner-content .content-right{
+	padding-top:0%;
+}
 #content-area .ad-space .inner-content .content-right h2{
 	color:#fff;
 	font-weight: bold;
@@ -173,6 +176,10 @@ div.buttons{
 }
 .hero-inner.center-text{
 	text-align:center !important;
+}
+
+.lang-fr #gift-card{
+	padding-top:30px;
 }
 
 /* xs */
