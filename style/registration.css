@@ -240,12 +240,21 @@
 }
 
 /*Galaxy 3*/
-@media screen and (device-width: 320px) and (device-height: 640px) and (-webkit-device-pixel-ratio: 2){
-	#customer-research-txt{
- 		padding-left: 15px; 
- 	}
 
+.android #customer-research-txt{
+	padding-left: 15px; 
 }
+.android #registration_form > fieldset > div.row.disclaimers > div.privacy-policy.form-group.has-error > label > table > tbody > tr:nth-child(1) > td:nth-child(1) > span{
+	margin-right:15px !important;
+}
+.android #registration_form .disclaimers .help-block.with-errors{
+	margin-top: -7px;
+}
+
+.android #registration_form > fieldset > div.row.disclaimers > div.consent.form-group.has-error{
+	margin-top: 50px;
+}
+ 	
 /*iphone 6*/
 @media only screen and (min-device-width : 375px) and (max-device-width : 667px) and (orientation : portrait) {
 	#registration_form > fieldset > div.row.disclaimers > div.privacy-policy.form-group.has-error > label > table > tbody > tr:nth-child(1) > td:nth-child(1) > span{
