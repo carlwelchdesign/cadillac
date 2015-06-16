@@ -21,12 +21,12 @@ text-align:left;
 	padding-left:0;
 }
 #content-area .content-inner .disclaimers{
-	padding:20px 0;
+	padding:32px 0;
 }
 #content-area .content-inner .disclaimers label{
 	width:95%;
 	padding-bottom:20px;
-	margin-left: 15px;
+	margin-left: 15px; 
 	color:#c05e96;
 }
 #content-area .content-inner .buttons{

@@ -34,7 +34,7 @@ div.buttons{
 	display: inline-block;
 }
 .btn-pink-email{
-	margin:20px 50px 0 0;
+	margin:20px 50px 0 0; 
 	padding:15px 0;
 	border:2px solid #c05e96;
 	text-transform: uppercase;
@@ -44,7 +44,7 @@ div.buttons{
 	-webkit-box-shadow: 7px 7px 21px 2px #ccc;
 	box-shadow: 7px 7px 21px 2px #ccc;
 	padding:15px 30px;
-	float:left
+	float:left;
 }
 .btn-back{
 	float:left;
@@ -56,7 +56,7 @@ div.buttons{
 }
 
 #content-area{
-	border-bottom: 2px solid #ccc;
+ /*	border-bottom: 2px solid #ccc; */ 
 }
 #content-area .content-inner{
 	padding-top:0;
@@ -133,7 +133,7 @@ div.buttons{
 }
 #content-area .phone{
 
-  margin-top: 28px;
+  margin-top: 28px; /* from 28px */
 
 }	
 
@@ -142,7 +142,7 @@ div.buttons{
   width: 390px;
   float: right;
   margin-right: 9%;
-  margin-top:30px;
+  margin-top:30px; /* from 30px */
 }
 #content-area .store-ad h2{
 	color:#c05e96;
@@ -202,7 +202,28 @@ div.buttons{
 	}
 }
 
+@media only screen and (max-width: 767px){
+    .btn-pink-email{
+		display: block;
+		margin: 0 auto;
+		width: 290px;
+		text-align: center;
+		float:none;
+    }
 
+    .btn-back{
+    	float:none;
+    	display: block;
+		margin: 0 auto;
+		width: 135px;
+		text-align: center;
+		margin-top:35px;
+    }
+
+    .lang-fr .btn-back{
+    	width:290px;
+    }
+}
 
 /*ipad portrait*/
 @media only screen and (min-device-width: 768px) and (orientation: portrait) {
@@ -240,6 +261,10 @@ div.buttons{
 		color:#c05e96;
 		margin-top:25px;
 	}
+
+	#hero-area .hero-inner .pref-centre li:first-child{
+		padding:0 10px;
+	}
 }
 
 
@@ -251,7 +276,7 @@ div.buttons{
 		width: 100%;
 	}
 	#content-area .phone {
-	  margin-top: 28px;
+	  /* margin-top: 28px; */ 
 	  margin-left: -30px;
 	}
 	#content-area .store-ad {
@@ -278,14 +303,13 @@ div.buttons{
 
 @media(max-width:767px){
 	#content-area .ad-space .inner-content .content-right{
-		padding-top: 0%; 
+		padding:0% 15px; 
 	}
 	#content-area .gift-card-mobile{
 		margin:0 auto;
 		float:none;
 		margin-right:none;
-		margin-top:none;
-		width:39%;  
+		margin-top:none; 
 	}
 	#content-area .content-right h2{
 		text-align:center;
@@ -427,8 +451,8 @@ div.buttons{
 		/*background:url(../assets/gift-card-mobile.png) no-repeat 20px center;*/
 	}
 	#content-area .ad-space .inner-content .content-right{
-		width:54%;
-		padding-top:30px;
+	/*	width:54%;
+		padding-top:30px; */ 
 	}
 	#content-area .store-ad{
 	/*	background:url(../assets/cellphone-mobile.png) no-repeat 90% bottom;
