@@ -97,8 +97,6 @@ hr {
 
 
 
-
-
 #header-area {
   background: #e7a69d;
   /* Old browsers */
@@ -297,6 +295,9 @@ font-family: "DroidSerif";
 /* ______________________________________________ */
 
 @media only screen and (max-width: 767px) {
+	.small-header{
+		font-size:30px;
+	}
 	
 	#footer-area .footer-inner img.foot-logo{
 		display:none;
@@ -327,6 +328,15 @@ font-family: "DroidSerif";
 		margin:0 auto;
 		width:200px;
 		overflow:hidden;
+	}
+
+	.lang-fr #footer-area .footer-inner{
+		width:100%;
+	}
+
+	.lang-fr #footer-area .mobile-links, #footer-area .mobile-links .right-links{
+		width:270px;
+		font-size:12px;
 	}
 
 	#footer-area .footer-inner .right-links li{
