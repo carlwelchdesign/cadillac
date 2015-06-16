@@ -193,6 +193,9 @@ hr {
 	float:right;
 	margin:2px 0 0 0;
 }
+.lang-fr #footer-area .right-links{
+	padding-right:0px;
+}
 #footer-area .footer-inner .right-links ul{
 	float:right;
 }
@@ -310,7 +313,7 @@ font-family: "DroidSerif";
 		display:none;
 	}
 	#footer-area .trade-mark{
-		margin-bottom:16px;
+		margin-bottom:14px;
 	}
 	#footer-area .footer-inner .left-links{
 		float:left;
@@ -334,7 +337,7 @@ font-family: "DroidSerif";
 	}
 
 	#footer-area .reg-mark{
-		margin-top:26px;
+		margin-top:32px;
 		font-size:12px;
 	}
 

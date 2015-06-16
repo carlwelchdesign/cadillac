@@ -219,6 +219,10 @@ div.buttons{
 		text-align: center;
 		margin-top:35px;
     }
+
+    .lang-fr .btn-back{
+    	width:290px;
+    }
 }
 
 /*ipad portrait*/
