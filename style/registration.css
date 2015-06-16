@@ -197,6 +197,14 @@
 	margin-right: 15px !important;
 }
 
+#registration_form > fieldset > div.row.disclaimers > div.privacy-policy.form-group > label > table > tbody > tr:nth-child(1) > td:nth-child(1) > span{
+
+	margin-right: 15px !important;
+	width: 34px;
+}
+#registration_form > fieldset > div.row.disclaimers > div.privacy-policy.form-group.has-error > label > table > tbody > tr:nth-child(1) > td:nth-child(1) > span{
+	margin-right: 0 !important;
+}
 
 
 #mall-select > ul > li{
@@ -230,9 +238,30 @@
 		margin:0px;
 	}
 }
+
+/*Galaxy 3*/
+@media screen and (device-width: 320px) and (device-height: 640px) and (-webkit-device-pixel-ratio: 2){
+	#customer-research-txt{
+ 		padding-left: 15px; 
+ 	}
+
+}
 /*iphone 6*/
 @media only screen and (min-device-width : 375px) and (max-device-width : 667px) and (orientation : portrait) {
+	#registration_form > fieldset > div.row.disclaimers > div.privacy-policy.form-group.has-error > label > table > tbody > tr:nth-child(1) > td:nth-child(1) > span{
+		margin-right:15px !important;
+	}
 
+	#registration_form .disclaimers .help-block.with-errors{
+		margin-top: 0px;
+	}
+
+ 	#customer-research-txt{
+ 		padding-left: 15px; 
+ 	}
+	#agree-to-privacy{
+ 		width:34px;
+ 	}
 
 	#registration_form .mandatory{
 	  padding:8% 0;
@@ -274,6 +303,17 @@
 	}
 }
 @media only screen and (min-device-width : 375px) and (max-device-width : 667px) and (orientation : landscape){
+
+	#registration_form .disclaimers .help-block.with-errors{
+		margin-top: -20px;
+	}
+	#registration_form > fieldset > div.row.disclaimers > div.privacy-policy.form-group.has-error > label > table > tbody > tr:nth-child(1) > td:nth-child(1) > span{
+		margin-right:15px !important;
+	}
+ 	#i-would-like-to-participate > table > tbody > tr > td:nth-child(1),
+	#agree-to-privacy{
+ 		width:34px;
+ 	}
 	#registration_form .all-malls-list .col-sm-4{
 			float:left;
 			width:50%;
