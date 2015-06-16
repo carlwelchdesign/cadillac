@@ -275,7 +275,7 @@
 												<span class="custom-checkmark"></span>
 												<input type="checkbox" name="customer-research" id="customer-research" /></label>
 											</td>
-											<td valign="top" id="customer-research-txt">
+											<td valign="top" id="customer-research-txt"  onclick="void(0)">
 												<label for="customer-research">
 												<strong class="txt">I would like to participate in the preferred customer research forums.</label><a tabindex="0" class="help-icon-cr" data-toggle="tooltip" data-trigger="focus"><img src="assets/help-icon.gif" width="15" height="15" alt="" title="" /></a></strong>
 											</td>
@@ -400,9 +400,18 @@
                         title: "<span class='close'>x</span><h4>&nbsp;</h4><p>By checking the box, you will receive occasional online surveys that we use to help improve Cadillac Fairview malls. Your feedback is kept private and is only used for research purposes.</p>",
                         html: true,
                         placement: "top"
+                },function(){
+
+                	$('.tooltip').on('shown.bs.tooltip', function (e) {
+					    var trg = e.target
+					    setTimeout(function() {
+					        $(trg).tooltip('hide');
+					    }, 3000);
+					});
+
                 });
+				 
 				
-				$("#selector ").tooltip( "close" );
 
 			});
         </script>
