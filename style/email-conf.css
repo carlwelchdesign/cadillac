@@ -258,10 +258,6 @@ div.buttons{
 	border:1px solid red !important;
 }*/
 
-	#hero-area .hero-inner .pref-centre li:first-child{
-		padding:0 10px;
-	}
-
 	#hero-area .hero-inner .pref-centre li{
 		display:block;
 		border:none;
@@ -269,8 +265,8 @@ div.buttons{
 		margin-top:25px;
 	}
 
-	#hero-area .hero-inner .pref-centre li:first-child{
-		padding:0 10px;
+	#hero-area .hero-inner .pref-centre li{
+		padding:0 0px;
 	}
 }
 
@@ -442,9 +438,9 @@ div.buttons{
 	.buttons.emails{
 		text-align:center;
 	}
-	.btn-pink-email{
+	/* .btn-pink-email{
 		margin-right:0;
-	}
+	} */ 
 }
 
 /*iphone 6*/
