@@ -259,6 +259,7 @@ input[type=reset]{
 .arrow{
   background: url(../assets/arrow-right.gif) no-repeat right center;
   padding:0 15px 0 0;
+  text-transform: uppercase; 
 }
 .modal-body p.title{
 font-family: "DroidSerif";
@@ -318,8 +319,8 @@ font-family: "DroidSerif";
 		margin-bottom:14px;
 	}
 	#footer-area .footer-inner .left-links{
-		float:left;
-		padding-left:15px;
+		/* float:left; */
+		padding-left:15px;  
 	}
 
 	#footer-area .mobile-links, #footer-area .mobile-links .right-links{
