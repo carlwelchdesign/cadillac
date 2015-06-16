@@ -118,7 +118,7 @@
 }
 #registration_form .disclaimers{
 	/* border-top: 2px solid #ccc; */ 
-	padding-top: 45px;
+	padding-top: 20px;
 	padding-left: 10px;
 }
 #registration_form .disclaimers .help-icon-cr{
@@ -129,6 +129,7 @@
 	/* padding:0 0 25px 0;
 	margin:0; */ 
 	overflow:hidden;
+	margin-top:25px;
 }
 #YOUR-EMAIL-SUBSCRIPTIONS{
 	margin-top:40px;
@@ -146,6 +147,9 @@
    /* float: right;*/
     margin: 1px 0 0;
     width: 94.5%;
+}
+#registration_form .consent label span{
+	margin-bottom:35px;
 }
 #registration_form .disclaimers label strong.txt{
 		font-weight:normal;
@@ -242,6 +246,7 @@
 @media (min-width : 768px) {
 	.preference-centre-disclaimers .buttons{
 		margin-left:5px;
+		margin-top:20px;
 	}
 
 	.preference-centre-disclaimers .form-group{
@@ -252,8 +257,15 @@
 	#registration_form .selected-mall ul li{
     	width: 100%;
   	}
+  	#registration_form .consent label span{
+  		margin-bottom:65px;
+  	}
 }
-
+@media (max-width : 484px) {
+  	#registration_form .consent label span{
+  		margin-bottom:130px;
+  	}
+}
 @media(max-width:320px){
 	#i-would-like-to-participate{
 		padding-bottom: 0 !important;
