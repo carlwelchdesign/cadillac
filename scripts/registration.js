@@ -6,12 +6,12 @@
 
 	}
 
-	/* 
+
 	// Mall list toggle script
 	var cm = $(".all-malls-en");
 	cm.on('click', function(e){
 		e.preventDefault();
-		$(".see-all-malls").toggle("slow", function(){
+		$(".all-malls-list").toggle("slow", function(){
 			if(cm.text() === "SEE MORE MALLS"){
 				cm.text("SEE LESS");
 			}else{
@@ -20,18 +20,17 @@
 		}); 
 	});
 
-	var cm = $(".all-malls-fr");
-	cm.on('click', function(e){
+	var cmfr = $(".all-malls-fr");
+	cmfr.on('click', function(e){
 		e.preventDefault();
-		$(".see-all-malls").toggle("slow", function(){
-			if(cm.text() === "VOIR MOINS"){
-				cm.text("Voir d’autres centres commerciaux");
+		$(".all-malls-list").toggle("slow", function(){
+			if(cmfr.text() === "voir moins"){
+				cmfr.text("Voir d’autres centres commerciaux");
 			}else{
-				cm.text("VOIR MOINS");
+				cmfr.text("voir moins");
 			}
 		}); 
 	});
- */ 
 	
 
 	$("#modal-cancel").click(function(){
