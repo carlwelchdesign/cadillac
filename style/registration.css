@@ -31,8 +31,11 @@
   font-family: "Montserrat";
   text-transform: uppercase;
   background: url(../assets/arrow-right.gif) no-repeat right center;
-  padding:20px 15px 20px 0;
   display:inline-flex;
+  padding:0 15px 0 0;
+}
+#registration_form .see-all-malls-wrap{
+   padding:20px 15px 25px 0;
 }
 #registration_form .see-all-malls:hover{
   text-decoration: underline;
