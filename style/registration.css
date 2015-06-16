@@ -124,10 +124,6 @@
 	padding-top: 20px;
 	padding-left: 10px;
 }
-#registration_form .disclaimers .help-icon-cr{
-	margin: 0 0 0 4px;
-}
-
 #registration_form .disclaimers .form-group{
 	/* padding:0 0 25px 0;
 	margin:0; */ 
@@ -246,6 +242,18 @@
 	margin-right:21px;
 }
 
+@media(max-width:920px){
+	.customer-research label{
+		width:90%;
+	}
+	#registration_form .help-icon-cr{
+		float:left;
+		width:5%;
+		margin-top:6px;
+		margin-right:5px;
+	}
+}
+
 @media (min-width : 768px) {
 	.preference-centre-disclaimers .buttons{
 		margin-left:5px;
@@ -260,13 +268,19 @@
 	#registration_form .selected-mall ul li{
     	width: 100%;
   	}
-  	#registration_form .consent label span{
+  	#registration_form .consent label span, .lang-fr .preference-centre-disclaimers .consent label span{
   		margin-bottom:65px;
+  	}
+  	.lang-fr .preference-centre-disclaimers label span{
+  		margin-bottom:45px;
   	}
 }
 @media (max-width : 484px) {
   	#registration_form .consent label span{
-  		margin-bottom:130px;
+  		margin-bottom:160px;
+  	}
+  	.lang-fr #registration_form .consent label span{
+		margin-bottom:200px;
   	}
 }
 @media(max-width:320px){

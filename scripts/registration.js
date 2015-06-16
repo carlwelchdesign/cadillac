@@ -52,7 +52,8 @@
 		if ($("input[type='checkbox'][name='mall[]']:checked").size() > 0){
 				$("#mall-select").html(" ");
 			} else{
-				$("#mall-select").html("<ul class='list-unstyled'><li>Please select at least one mall.</li></ul>");
+				var errorMsg = $(".mall-validation").attr("data-error"); 
+				$("#mall-select").html("<ul class='list-unstyled'><li>" + errorMsg + "</li></ul>");
 				return false;
 			}
 	});
