@@ -205,6 +205,7 @@ input, select{
   border-radius: 0 !important;
   background: #f7f7f7;
 }
+
 .tooltip h4, .tooltip p{
   color:#888;
   padding:8px;
