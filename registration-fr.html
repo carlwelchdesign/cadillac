@@ -56,12 +56,12 @@
 						<div class="row">
 							<div class="col-sm-6 form-group">
 								<label for="email"> Adresse électronique </label>
-								<input type="email" class="email form-control" id="email" name="email" required="required" value="" placeholder="i.e. moi@domaine.com" data-error="Adresse e-mail correcte est exigée." required/>
+								<input type="email" class="email form-control" id="email" name="email" required="required" value="" placeholder="i.e. moi@domaine.com" data-error="Désolé, l’adresse électronique que vous avez entrée n’est pas valide." required/>
 								<div class="help-block with-errors"></div>
 							</div> 
 							<div class="col-sm-6 form-group">
 								<label for="re-email"> Confirmer l’adresse électronique </label>
-								<input type="email" class="re-email form-control" id="re-email" name="re-email" data-match="#email" required="required" value="" placeholder="i.e. moi@domaine.com" data-error="Adresse e-mail correcte est exigée." required/>
+								<input type="email" class="re-email form-control" id="re-email" name="re-email" data-match="#email" required="required" value="" placeholder="i.e. moi@domaine.com" data-error="Désolé, la deuxième adresse électronique que vous avez entrée ne correspond pas à la première." required/>
 								<div class="help-block with-errors"></div>
 							</div> 
 						</div> 
@@ -361,7 +361,7 @@
                         placement: "top"
                 }); 
                 $('.help-icon-by').tooltip({
-                        title: "<span class='close'>x</span><h4>Année de naissance</h4><p>Pour pouvoir vous envoyer des nouvelles, nous devons vérifier que vous avez au moins 13 ans..</p>",
+                        title: "<span class='close'>x</span><h4>Année de naissance</h4><p>Pour pouvoir vous envoyer des nouvelles, nous devons vérifier que vous avez au moins 13 ans.</p>",
                         html: true,
                         placement: "top"
                 });
@@ -377,7 +377,7 @@
  			var utag_data = {
  				"page_name": "cf:prc:en:home:signup",
  				"level_1": "home",
- 				"customer_language": "en"
+ 				"customer_language": "fr"
  			}
  		</script>
  		<!-- Analytics: Loading script asynchronously -->
