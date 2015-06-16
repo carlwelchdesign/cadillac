@@ -9,13 +9,13 @@
 		<link rel="stylesheet" href="style/common.css" type="text/css" media="all" />
 		<link rel="stylesheet" href="style/registration.css" type="text/css" media="all" />
     </head>
-    <body class="container-fluid">
+    <body class="container-fluid fr">
 		<div id="logo-area">
 			<div class="logo-inner">
 				<img src="assets/fairview-cadillac.png" class="logo" width="115px" height="28px" title="Cadillac Fairview" alt="Cadillac Fairview" />
 				<ul class="lang-select">
-					<li><a href="#">EN</a> /&nbsp</li>
-					<li> FR</li>
+					<li>EN /</li>
+					<li><a href="#">FR</a></li>
 				</ul>
 			</div>
 		</div>
@@ -36,47 +36,47 @@
 			<div class="content-inner">
 				<form id="registration_form" name="registration_form" class="registration_form" type="post" data-toggle="validator" role="form" action="">
 					<div id="alert-msg">
-						<p>Vous recevrez désormais des nouvelles de <strong id="updatedmall">Rideau Centre</strong></p>
+						<p>Vous recevrez des nouvelles du centre commercial <strong id="updatedmall">Rideau Centre</strong></p>
 					</div>
 					<fieldset>
-						<legend>Vos renseignements </legend> 
+						<legend>Vos renseignements</legend> 
 						<p class="mandatory">Tous les champs sont obligatoires</p>
 						<div class="row">
 							<div class="col-sm-6 form-group">
 								<label for="fname"> Prénom </label>
-								<input type="text" class="fname form-control" id="fname" required="required" placeholder="First name" data-error="Please enter your First name" pattern="^[a-zA-Z]+$" />
+								<input type="text" class="fname form-control" id="fname" required="required" placeholder="First name" data-error="S'il vous plaît entrez votre Prénom" pattern="^[a-zA-Z]+$" />
 								<div class="help-block with-errors"></div>
 							</div> 
 							<div class="col-sm-6 form-group">
 								<label for="lname"> Nom </label>
-								<input type="text" class="lname form-control" id="lname" required="required" placeholder="Last name" data-error="Please enter your Last name" pattern="^[a-zA-Z]+$" />
+								<input type="text" class="lname form-control" id="lname" required="required" placeholder="Last name" data-error="S'il vous plaît entrer votre nom" pattern="^[a-zA-Z]+$" />
 								<span class="help-block with-errors"></span>
 							</div> 
 						</div> 
 						<div class="row">
 							<div class="col-sm-6 form-group">
 								<label for="email"> Adresse électronique </label>
-								<input type="email" class="email form-control" id="email" name="email" required="required" value="" placeholder="i.e. me@domain.com" data-error="Proper email address is required." />
+								<input type="email" class="email form-control" id="email" name="email" required="required" value="" placeholder="i.e. me@domain.com" data-error="Veuillez entrer une adresse courriel valide." />
 								<div class="help-block with-errors"></div>
 							</div> 
 							<div class="col-sm-6 form-group">
 								<label for="re-email"> Confirmer l’adresse électronique </label>
-								<input type="email" class="re-email form-control" id="re-email" name="re-email" data-match="#email" required="required" value="" placeholder="i.e. me@domain.com" data-error="Proper email address is required." />
+								<input type="email" class="re-email form-control" id="re-email" name="re-email" data-match="#email" required="required" value="" placeholder="i.e. me@domain.com" data-error="Veuillez entrer une adresse courriel valide." />
 								<div class="help-block with-errors"></div>
 							</div> 
 						</div> 
 						<div class="row">
-							<div class="col-sm-3 form-group">
+							<div class="col-sm-3 form-group" onclick="void(0)">
 								<label for="postal"> Code postal </label>
 								<a tabindex="0" class="help-icon-pc" data-toggle="tooltip" data-trigger="focus"><img src="assets/help-icon.gif" width="15" height="15" alt="" title="" /></a>
-								<input type="text" class="postal form-control" id="postal" required="required" placeholder="i.e. A0A 0A0" data-error="Please enter valid Postal Code" pattern="\d{5}((-)?\d{4})?|([A-Za-z]\d[A-Za-z]( )?\d[A-Za-z]\d)" />
+								<input type="text" class="postal form-control" id="postal" required="required" placeholder="i.e. A0A 0A0" data-error="S'il vous plaît entrer valable Code postal." pattern="\d{5}((-)?\d{4})?|([A-Za-z]\d[A-Za-z]( )?\d[A-Za-z]\d)" />
 								<div class="help-block with-errors"></div>
 							</div> 
-							<div class="col-sm-3 form-group">
+							<div class="col-sm-3 form-group" onclick="void(0)" style="width: 210px;">
 								<label for="birthYear"> Année de naissance</label>
 								<a tabindex="0" class="help-icon-by" data-toggle="tooltip" data-trigger="focus"><img src="assets/help-icon.gif" width="15" height="15" alt="" title="" /></a>
-								<select name="birthYear" id="birthYear" class="form-control" required="required" data-error="Please select your year of birth" title="Year">
-									<option value="">Année</option>
+								<select name="birthYear" id="birthYear" class="form-control" required="required" data-error="S'il vous plaît sélectionnez votre année de naissance." title="Year">
+									<option value="">Year</option>
 								</select>
 								<div class="help-block with-errors"></div>
 							</div>
@@ -275,37 +275,33 @@
 							</div>
 						</div>
 						<div class="row disclaimers">
-							<div id="i-would-like-to-participate" class="customer-research">
-								
+							<div class="customer-research">
+								<!-- <label for="customer-research"> -->
 
-								<table>
-									<tr>
-										<td valign="top">
-											<label for="customer-research">
+									<table>
+										<tr>
+											<td valign="top"><label for="customer-research">
 												<span class="custom-checkmark"></span>
-												<input type="checkbox" name="customer-research" id="customer-research" />
-											</label>
-										</td>
-										<td valign="top">
-											<label for="customer-research">
-												<strong class="txt">J’aimerais participer aux études de marché comme client(e) privilégié(e).<a tabindex="0" class="help-icon-cr" data-toggle="tooltip" data-trigger="focus">
-											</label>
-											<img src="assets/help-icon.gif" width="15" height="15" alt="" title="" /></a></strong>
-										</td>
-									</tr>
-								</table>				
-								
+												<input type="checkbox" name="customer-research" id="customer-research" /></label>
+											</td>
+											<td valign="top" id="customer-research-txt" onclick="void(0)">
+												<label for="customer-research">
+												<strong class="txt">J’aimerais participer aux études de marché comme client(e) privilégié(e).</label><a tabindex="0" class="help-icon-cr" data-toggle="tooltip" data-trigger="focus"><img src="assets/help-icon.gif" width="15" height="15" alt="" title="" /></a></strong>
+											</td>
+										</tr>
+									</table>				
+								<!-- </label> -->
 							</div>
 							<div class="privacy-policy form-group">
 								<label for="privacy_policy">
 									<table>
 										<tr>
-											<td valign="top">
+											<td valign="top" id="agree-to-privacy">
 												<span class="custom-checkmark"></span>
-												<input type="checkbox" name="privacy_policy" id="privacy_policy" class="form-control" required=required data-error="You must agree to the privacy statement to become a member." />
+												<input type="checkbox" name="privacy_policy" id="privacy_policy" class="form-control" required=required data-error="Pour vous inscrire, vous devez accepter les conditions de la politique de protection de la vie privée." />
 											</td>
 											<td valign="top">
-												<strong class="txt">I have read and accepted the <strong><a href="#" data-toggle="modal" data-target="#myModal">Privacy Policy</a></strong>.</strong>
+												<strong class="txt">J’ai lu et accepté la <strong><a href="#" data-toggle="modal" data-target="#myModal">Politique en matière de renseignements personnels.</a></strong></strong>
 											</td>
 										</tr>
 										<tr>
@@ -325,7 +321,7 @@
 									        <input type="checkbox" name="consent" id="consent" class="form-control" required=required data-error="Please provide your consent to receive email updates by clicking the box above." />
 									    </td>
 									    <td valign="top">
-									    	<p>I agree to receive email updates from Cadillac Fairview and its affiliates, properties and partners, containing news, updates and promotions regarding their properties, retailers and products.</p>
+									    	<p>J’accepte que Cadillac Fairview, ses filiales, ses propriétés et ses partenaires m’envoient des courriels présentant des nouvelles, des mises à jour et des promotions relatives à leurs propriétés, leurs détaillants et leurs produits. </p>
 									    </td>
 									    
 									  </tr>
@@ -337,33 +333,41 @@
 									</table>
 								</label>
 							</div>
-						</div> 
-								<div class="row buttons">
-									<input type="submit"  value="Save Changes" />
-									<input type="reset" value="Cancel" />
-								</div>  
+						</div>
+						<div class="row buttons">
+							<input type="submit"  value="S’abonner" />
+							<input type="reset" value="Annuler" />
+						</div>  
 					</fieldset> 
 				</form>
 			</div>
 		</div>
 		<div id="footer-area">
-			<div class="footer-inner">
-				<img src="assets/cadillac.png" class="foot-logo" width="80px" height="20px" alt="Cadillac Fairview" title="Cadillac Fairview" />
-				<ul class="left-links">
-					<li class="url"><a href="http://www.cadillacfairview.com">www.cadillacfairview.com</a></li>
-					<li class="trade-mark"> &#169; 2015 The Cadillac Fairview Corporation Limited</li>
-					<li class="mobile-links">
-						<ul class="right-links">
-							<li><a href="#">CFShops.com<a/></li>
-							<li><a href="http://www.cadillacfairview.com/privacy-policy/" target="_blank">Privacy</a></li>
-						</ul>
-					</li>
-					<li class="reg-mark"> &#174; a registered trademark of The Cadillac Fairview Corporation Limited </li>
-				</ul> 
-				<ul class="right-links">
-					<li><a href="#">CFShops.com<a/></li>
-					<li><a href="http://www.cadillacfairview.com/privacy-policy/" target="_blank">Privacy Policy</a></li>
-				</ul>
+			<div class="footer-inner row">
+				<div class="col-sm-7 col-xs-12">
+					<div class="row">
+						<div class="col-sm-2">
+							<img src="assets/cadillac.png" class="foot-logo" width="80px" height="20px" alt="Cadillac Fairview" title="Cadillac Fairview" />
+						</div>
+						<ul class="left-links col-sm-10">
+							<li class="url"><a href="http://www.cadillacfairview.com">www.cadillacfairview.com</a></li>
+							<li class="trade-mark"> &#169; La Corporation Cadillac Fairview limitée, 2015</li>
+							<li class="mobile-links">
+								<ul class="right-links">
+									<li><a href="#">CFShops.com<a/></li>
+									<li><a href="http://www.cadillacfairview.com/privacy-policy/" target="_blank">Politique de confidentialité</a></li>
+								</ul>
+							</li>
+							<li class="reg-mark"> MD une marque déposée de La Corporation Cadillac Fairview limitée</li>
+						</ul> 
+					</div>
+				</div>
+				<div class="right-links col-sm-5 col-xs-12">
+					<ul> 
+						<li><a href="#">CFShops.com<a/></li>
+						<li><a href="http://www.cadillacfairview.com/fr/privacy-policy/" target="_blank">Politique de confidentialité</a></li>
+					</ul> 
+				</div> 
 			</div>
 			</div>
 		</div>
@@ -375,16 +379,14 @@
 				<button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">&times;</span></button>
 			  </div>
 			  <div class="modal-body">
-				<p class="title"><strong>Privacy Policy</strong></p>
-				  <p>Your privacy is very important to us. Your Personal Information will be used only for the purpose of providing you with the information selected by you above. It will also be used for Cadillac Fairview’s internal marketing research purposes. It may be disclosed to any entity that acquires Cadillac Fairview provided such entity similarly agrees to protect your privacy. We may also use third parties to process some aspect of the personal information for our internal use, provided that they similarly agree to protect your privacy. If you have a privacy question or concern, you may contact Cadillac Fairview’s Chief Privacy Officer in writing at the following address:</p>
+				<p class="title"><strong>Politique de confidentialité</strong></p>
+				  <p>La protection de vos renseignements personnels nous tient à cœur Ceux-ci ne serviront qu’à nous permettre de vous fournir l’information que vous avez choisie ci-dessus. Vos renseignements seront également utilisés par Cadillac Fairview à des fins de recherche interne en matière de marketing. Ils peuvent être transmis à toute entité qui ferait l’acquisition de Cadillac Fairview ou du centre commercial, à condition que cette entité accepte également de protéger votre vie privée. Cadillac Fairview pourrait également faire appel à des tiers pour le traitement de certains renseignements personnels afin de les utiliser à l’interne, à condition que ces tiers acceptent également de protéger votre vie privée. Pour toute question ou préoccupation à cet égard, il faut communiquer avec le chef de la protection des renseignements personnels de Cadillac Fairview à l’adresse suivante:</p>
 				  <p>
-					The Cadillac Fairview Corporation Limited <br />
-					Suite 500 <br />
-					20 Queen Street West <br />
-					Toronto, Ontario M5H 3R4 <br />
-					Fax no. (416) 598-8222
+				  	La Corporation Cadillac Fairview Limitée <br />
+					20, rue Queen Ouest, bureau 500 <br />
+					Toronto (Ontario) M5H 3R4<br />
 					</p>
-					<p>For access to Cadillac Fairview’s online privacy policy, <a href="http://www.cadillacfairview.com/privacy-policy/" target="_blank">click here</a>.</p>
+					<p>Vous pouvez également communiquer avec lui par télécopieur au 416-598-8222. Pour consulter en ligne la politique de protection de la vie privée de Cadillac Fairview, <a href="http://www.cadillacfairview.com/privacy-policy/" target="_blank"> cliquez ici</a>.</p>
 			  </div>
 			</div>
 		  </div>
@@ -399,7 +401,7 @@
 			  </div>
 			  <div class="modal-body">
 				  <div class="gray-bg">
-					<h2>ARE YOU SURE YOU WANT TO UNSUBSCRIBE FROM ALL UPDATES?</h2>
+					<h2>Vous êtes sûr désinscrire de toutes mises à jour?</h2>
 					</div>
 					<div class="row buttons">
 						<input type="submit" value="UNSUBSCRIBE" /><br />
@@ -417,17 +419,17 @@
         <script type="text/javascript">
             $(document).ready(function(){
                 $('.help-icon-pc').tooltip({
-                        title: "<span class='close'>x</span><h4>Postal Code</h4><p>We ask for a postal code to better understand where our visitors are coming from.</p>",
+                        title: "<span class='close'>x</span><h4>code postal</h4><p>Nous demandons un code postal afin de mieux comprendre d’où viennent nos visiteurs.</p>",
                         html: true,
                         placement: "top"
                 }); 
                 $('.help-icon-by').tooltip({
-                        title: "<span class='close'>x</span><h4>Year of Birth</h4><p>To be able to send you updates, we need to make sure you are 13 years of age or older.</p>",
+                        title: "<span class='close'>x</span><h4>Année de naissance</h4><p>Pour pouvoir vous envoyer des nouvelles, nous devons vérifier que vous avez au moins 13 ans.</p>",
                         html: true,
                         placement: "top"
                 });
                 $('.help-icon-cr').tooltip({
-                        title: "<span class='close'>x</span><h4>&nbsp;</h4><p>By checking the box, you will receive occasional online surveys that we use to help improve Cadillac Fairview malls. Your feedback is kept private and is only used for research purposes.</p>",
+                        title: "<span class='close'>x</span><h4>&nbsp;</h4><p>Bonjour, Merci de vous inscrire aux nouvelles sur les centres commerciaux de Cadillac Fairview. Nous avons besoin que vous confirmiez votre adresse électronique en cliquant sur le bouton ci-dessous. Confirmez votre adresse électronique.  S’il ne fonctionne pas, copiez le lien et collez-le dans votre navigateur. Merci! Nous avons hâte de vous tenir au courant des nouvelles de Cadillac Fairview.</p>",
                         html: true,
                         placement: "top"
                 });
