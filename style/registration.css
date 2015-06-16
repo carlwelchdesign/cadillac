@@ -244,7 +244,8 @@
 
 @media(max-width:920px){
 	.customer-research label{
-		width:90%;
+		width:86%;
+		float:left;
 	}
 	#registration_form .help-icon-cr{
 		float:left;
@@ -276,6 +277,9 @@
   	}
 }
 @media (max-width : 484px) {
+	.preference-centre-disclaimers .customer-research span{
+		margin-bottom:40px;
+	}
   	#registration_form .consent label span{
   		margin-bottom:160px;
   	}
