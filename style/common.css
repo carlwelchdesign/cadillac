@@ -97,8 +97,6 @@ hr {
 
 
 
-
-
 #header-area {
   background: #e7a69d;
   /* Old browsers */
@@ -296,6 +294,9 @@ font-family: "DroidSerif";
 /* ______________________________________________ */
 
 @media only screen and (max-width: 767px) {
+	.lang-fr .small-header{
+		font-size:30px;
+	}
 	
 	#footer-area .footer-inner img.foot-logo{
 		display:none;
