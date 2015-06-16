@@ -328,6 +328,15 @@ font-family: "DroidSerif";
 		overflow:hidden;
 	}
 
+	.lang-fr #footer-area .footer-inner{
+		width:100%;
+	}
+
+	.lang-fr #footer-area .mobile-links, #footer-area .mobile-links .right-links{
+		width:270px;
+		font-size:12px;
+	}
+
 	#footer-area .footer-inner .right-links li{
 		padding:0 14px;
 	}
