@@ -106,6 +106,9 @@
 #registration_form .all-malls-list {
   display: none;
 }
+#registration_form .preference-centre-disclaimers{
+	border-top: 2px solid #ccc; 
+}
 #registration_form .disclaimers{
 	/* border-top: 2px solid #ccc; */ 
 	padding-top: 30px;
@@ -115,10 +118,9 @@
 	margin: 0 0 0 4px;
 }
 
-#registration_form .disclaimers .customer-research,
 #registration_form .disclaimers .form-group{
-	padding:0 0 25px 0;
-	margin:0;
+	/* padding:0 0 25px 0;
+	margin:0; */ 
 }
 #YOUR-EMAIL-SUBSCRIPTIONS{
 	margin-top:40px;
@@ -127,8 +129,10 @@
   margin-bottom: -6px !important;
  }
 #registration_form .disclaimers .privacy-policy label{
-	height: 36px;
-    line-height: 32px;
+	min-height: 36px;
+}
+#registration_form .disclaimers label{
+	line-height:32px;
 }
 #registration_form .disclaimers .consent label p{
    /* float: right;*/
@@ -211,6 +215,32 @@
 	clear: both;
 	margin-left: 0;
 }
+.preference-centre-disclaimers label{
+	float:left;
+	margin-left:5px;
+}
+#registration_form .preference-centre-disclaimers .help-block.with-errors{
+	clear:left;
+	margin-left:59px;
+	margin-top:15px;
+}
+.preference-centre-disclaimers .form-group{
+	padding-bottom:0px;
+}
+.preference-centre-disclaimers label span{
+	margin-right:21px;
+}
+
+@media (min-width : 768px) {
+	.preference-centre-disclaimers .buttons{
+		margin-left:5px;
+	}
+
+	.preference-centre-disclaimers .form-group{
+		margin-bottom:0px;
+	}
+}
+
 @media(max-width:320px){
 	#i-would-like-to-participate{
 		padding-bottom: 0 !important;
