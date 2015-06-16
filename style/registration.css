@@ -243,9 +243,6 @@
 	}
 }
 @media (max-width : 767px) {
-	#registration_form .disclaimers .form-group{
-		margin-top:-35px;
-	}
 }
 
 @media(max-width:320px){
